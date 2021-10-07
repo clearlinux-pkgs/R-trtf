@@ -4,7 +4,7 @@
 #
 Name     : R-trtf
 Version  : 0.3.8
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/trtf_0.3-8.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/trtf_0.3-8.tar.gz
 Summary  : Transformation Trees and Forests
@@ -15,8 +15,10 @@ Requires: R-alabama
 Requires: R-basefun
 Requires: R-coneproj
 Requires: R-libcoin
+Requires: R-mlt
 Requires: R-partykit
 Requires: R-sandwich
+Requires: R-variables
 BuildRequires : R-Formula
 BuildRequires : R-alabama
 BuildRequires : R-basefun
@@ -40,10 +42,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1633387542
+export SOURCE_DATE_EPOCH=1633646663
 
 %install
-export SOURCE_DATE_EPOCH=1633387542
+export SOURCE_DATE_EPOCH=1633646663
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
