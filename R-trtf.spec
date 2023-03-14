@@ -4,7 +4,7 @@
 #
 Name     : R-trtf
 Version  : 0.4.2
-Release  : 10
+Release  : 11
 URL      : https://cran.r-project.org/src/contrib/trtf_0.4-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/trtf_0.4-2.tar.gz
 Summary  : Transformation Trees and Forests
@@ -26,9 +26,6 @@ BuildRequires : R-sandwich
 BuildRequires : R-tram
 BuildRequires : R-variables
 BuildRequires : buildreq-R
-# Suppress stripping binaries
-%define __strip /bin/true
-%define debug_package %{nil}
 
 %description
 corresponding random forest for conditional transformation models
@@ -42,10 +39,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1676053186
+export SOURCE_DATE_EPOCH=1678827545
 
 %install
-export SOURCE_DATE_EPOCH=1676053186
+export SOURCE_DATE_EPOCH=1678827545
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
