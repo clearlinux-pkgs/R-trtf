@@ -4,7 +4,7 @@
 #
 Name     : R-trtf
 Version  : 0.4.2
-Release  : 14
+Release  : 15
 URL      : https://cran.r-project.org/src/contrib/trtf_0.4-2.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/trtf_0.4-2.tar.gz
 Summary  : Transformation Trees and Forests
